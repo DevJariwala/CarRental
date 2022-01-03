@@ -1,0 +1,6 @@
+export const LOADING = 'LOADING'
+export const AUTH = 'AUTH'
+export const LOGOUT = 'LOGOUT'
+export const ADD_CAR = 'ADD_CAR'
+export const GET_ALL_CARS = 'GET_ALL_CARS'
+export const MY_BOOKINGS = 'MY_BOOKINGS'

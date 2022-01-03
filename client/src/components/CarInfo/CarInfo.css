@@ -1,0 +1,50 @@
+.car{
+    margin: 0 15px;
+    margin-top: 100px;
+    height: 150px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.car:hover{
+    height: 220px;
+    transition: 0.5s all ease-in-out;
+}
+
+.car:hover>.car__info{
+    transform: translateY(-50px);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.carimg{
+    transform: translateY(-60px);
+    
+}
+
+.car__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(-200px) ;
+    opacity: 0;
+}
+
+.car__info1{
+    margin-left: 10px;
+    text-align: left;
+}
+
+.car__info2{
+    margin-right: 10px;
+    border: 2px solid black;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+

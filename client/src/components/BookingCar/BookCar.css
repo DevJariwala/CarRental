@@ -1,0 +1,84 @@
+.bookcar{
+    /* background-color: rosybrown; */
+    margin-top: 40px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+
+.bookcar__image{
+    flex: 50%;
+    padding: 20px;
+    /* background-color: seagreen; */
+}
+
+.car__image{
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+    
+}
+
+.bookcar__details{
+    flex: 50%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: silver; */
+    
+    /* background-color: sienna; */
+}
+
+.bookcar__header{
+    font-size: 30px;
+    font-weight: 500;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+
+.bookcar__det{
+    /* text-align: center; */
+    margin-top: -30px;
+    margin-left: 40px;
+    color: gray;
+    font-size: 20px;
+    font-weight: 300;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+
+.bookcar__bnt{
+    background-color: transparent;
+    height: 40px;
+    border:1px solid black;
+    margin:10px 0;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.bookcar__bnt:hover{
+    background-color:whitesmoke;
+}
+
+@media (max-width: 666px) {
+    .bookcar{
+        flex-direction: column;
+    }
+
+    .car__image{
+        width: 100%;
+    }
+    .bookcar__det{
+        text-align: center;
+    }
+
+    .bookcar__details{
+        width: 100%;
+    }
+        
+} 

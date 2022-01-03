@@ -1,0 +1,45 @@
+.myBookings{
+    max-width: 900px;
+    margin: auto;
+    min-height: 100vh;
+    /* background-color: blanchedalmond; */
+}
+.booking{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    color: gray;
+    font-size: 20px;
+    font-weight: 300;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+
+.image>h1{
+    font-size: larger;
+    color: black;
+}
+
+.carDetails1{
+    text-align: left;
+    /* margin-left: 100px; */
+}
+
+.carDetails2{
+    text-align: left;
+}
+
+.booking__details{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+
+@media (max-width: 730px) {
+    .booking{
+        flex-direction: column;
+    }
+        
+} 
